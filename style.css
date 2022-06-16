@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+}
+.header-container--saludo {
+  width: 250px;
+}
+.header-container--saludo img {
+  width: 230px;
+  height: 230px;
+}
+.header-container h1 {
+  font-size: 2.6rem;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.container--conoci {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container--conoci h2 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  line-height: 2.4;
+  margin: 20px 0 0 0;
+}
+.container--conoci p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2;
+  text-align: justify;
+  margin: 0 0 0 0;
+}
+.container--conoci .amor-text {
+  width: 100%;
+  text-align: start;
+}
+h2 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  line-height: 2.4;
+  margin: 20px 0 0 0;
+}
+.container--ella {
+  width: 250px;
+  max-width: 750px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.container--ella .card {
+  width: 200px;
+  height: 180px;
+  max-width: 220px;
+  border: 1px solid rgb(155, 152, 152);
+  border-radius: 16px;
+  padding: 12px;
+  margin-top: 16px;
+}
+.card img {
+  width: 40px;
+  height: 40px;
+}
+.card .card-title {
+  font-size: 2.2rem;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+.card .card-description {
+  font-size: 1.8rem;
+}
