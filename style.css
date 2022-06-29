@@ -95,3 +95,23 @@ h2 {
 .card .card-description {
   font-size: 1.8rem;
 }
+.section-container--ella-y-yo {
+  width: 250px;
+  max-width: 750px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.section-container--ella-y-yo a {
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  padding: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #fe7ab6;
+  color: white;
+  border-radius: 12px;
+}
